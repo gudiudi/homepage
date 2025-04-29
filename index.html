@@ -10,7 +10,15 @@
   <header class="header">
     <div class="header__content">
       <div class="header__picture">
-        <img src="./assets/pictures/chef1.jpg" alt="Profile picture">
+        <img 
+          src="./assets/pictures/chef1.webp" 
+          srcset="
+            ./assets/pictures/chef1-small.webp 480w,
+            ./assets/pictures/chef1-medium.webp 768w,
+            ./assets/pictures/chef1.webp 1280w
+          "
+          sizes="320px"
+          alt="Profile picture">
         <div class="header__name">Carolina Miranda</div>
       </div>
       <div class="header__info">
